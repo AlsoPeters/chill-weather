@@ -1,7 +1,8 @@
 import 'rsuite/dist/styles/rsuite-dark.css';
-import axios from 'axios';
 import GetWeather from './GetWeather';
 
-export default () => {
+function App() {
   return <GetWeather />;
-};
+}
+
+export default App;
